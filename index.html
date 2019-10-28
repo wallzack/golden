@@ -2,13 +2,186 @@
 <html lang="en">
   <head>
       <meta charset="utf-8">
-      <title>My first website</title>
+      <title>Golden Studio</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Inconsolata|Signika%26display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="vendor/bootstrap-grid.css">
+      <link rel="stylesheet" href="css/style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   </head>
   <body>
-hello
+    <nav class="navigation">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="#">about</a>
+                    <ul>
+                        <li><a href="#">link1</a></li>    
+                        <li><a href="#">link2</a></li>
+                        <li><a href="#">link3</a></li>
+                        <li><a href="#">link4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">what we do</a>
+                    <ul>
+                        <li><a href="#">link1</a></li>    
+                        <li><a href="#">link2</a></li>
+                        <li><a href="#">link3</a></li>
+                        <li><a href="#">link4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">projects</a>
+                    <ul>
+                        <li><a href="#">link1</a></li>    
+                        <li><a href="#">link2</a></li>
+                        <li><a href="#">link3</a></li>
+                        <li><a href="#">link4</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">contact</a>
+                    <ul>
+                        <li><a href="#">link1</a></li>    
+                        <li><a href="#">link2</a></li>
+                        <li><a href="#">link3</a></li>
+                        <li><a href="#">link4</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="splash">
+        <div class="splash-inner">
+            <h1 class="page-title">hello, we are <span>creatively</span>.</h1>
+            <h2 class="page-subtitle">we build brands and product to bring big ideas into life.</h2>
+            <a href="" class="btn btn-one">see our work</a>
+        </div>
+    </header>
+    <section class="container">
+        <div class="section-title">
+            our services
+        </div>
+        <div class="row">
+            <div class="col col-4">
+                <h1>design</h1>
+                <p>Lorem ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <div class="background-number">1</div>
+                <a href="" class="btn btn-two">read more</a>
+            </div>
+            <div class="col col-4">
+                <h1>code</h1>
+                <p>Hodur ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <div class="background-number">2</div>
+                <a href="" class="btn btn-three">read more</a>
+            </div>
+            <div class="col col-4">
+                <h1>marketing</h1>
+                <p>Figus ipsum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                <div class="background-number">3</div>
+                <a href="" class="btn btn-four">read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class="section-title">
+            our work
+        </div>
+        <div class="row">
+            <div class="col col-6">
+                <div class="our-work-image">
+                    <img src="https://images.pexels.com/photos/3046638/pexels-photo-3046638.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=400">
+                </div>
+                <div class="our-work-description">
+                    <h1>vertigo</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum</p>
+                    <a href="" class="btn btn-five">read more</a>
+                </div>
+            </div>
+            <div class="col col-6">
+                <div class="our-work-image">
+                    <img src="https://images.pexels.com/photos/3046637/pexels-photo-3046637.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=750%26w=1260">
+                </div>
+                <div class="our-work-description">
+                    <h1>eloquence</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum</p>
+                    <a href="" class="btn btn-five">read more</a>
+                </div>
+            </div>
+            <div class="col col-6">
+                <div class="our-work-image">
+                    <img src="https://images.pexels.com/photos/2499798/pexels-photo-2499798.jpeg?auto=compress%26cs=tinysrgb%26dpr=2%26h=750%26w=1260">
+                </div>
+                <div class="our-work-description">
+                    <h1>lithe</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum</p>
+                    <a href="" class="btn btn-five">read more</a>
+                </div>
+            </div>
+            <div class="col col-6">
+                <div class="our-work-image">
+                    <img src="https://images.pexels.com/photos/2499769/pexels-photo-2499769.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=750%26w=1260">
+                </div>
+                <div class="our-work-description">
+                    <h1>serendipity</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    <p>Lorem ipsum</p>
+                    <a href="" class="btn btn-five">read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-page">
+        <div class="contact-section-title">
+            contact us
+        </div>
+        <div class="row">
+            <form class="form col col-3">
+                <div class="form-input">
+                    <input type="text" id="your-name" placeholder="Your name" minlength="3" required>
+                </div>
+                <div class="form-input">
+                    <input type="email" placeholder="Your e-mail" required />
+                </div>
+                <div class="form-input">
+                    <input type="text" id="your-name" placeholder="Subject" minlength="3" required>
+                </div>
+                <div>
+    	            <textarea class="message" rows="10" cols="100%" placeholder="Type your message here" required></textarea>
+	            </div>
+                <a href="" class="btn btn-six">submit</a>
+            </form>
+            <div class="contact-details col col-3">
+                <div class="contact-title">
+                    <h1>sales specialist</h1>
+                    <p>Elinor Kinder</p>
+                </div>
+                <div class="contact-address">
+                    <h1>address</h1>
+                    <p>299 Broning Lane</p>
+                    <p>Cortland</p>
+                    <p>13845 New York</p>
+                </div>
+                <div class="contact-phone">
+                    <h1>phone</h1>
+                    <p>607-835-7016</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="social-media container">
+            <ul class="social-media-list">
+                <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i>Instagram</a></li>
+                <li><a href="#"><i class="fab fa-behance"></i>Behance</a></li>
+            </ul>
+    </footer>
   </body>
 </html>
