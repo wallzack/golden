@@ -201,3 +201,29 @@ h2 {
     text-align: center;
 }
 
+.social-media {
+    ul {
+        text-decoration: none;
+        display: flex;
+        margin: auto;
+        padding-left: 0;
+        padding-top: 10px;
+        justify-content: left;
+    }
+    li {
+        font-size: 0;
+        i {
+            text-align: center;
+            background-color: #000;
+            font-size: 16px;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            color: #fff;
+        }
+    }
+}
+
+    
+
