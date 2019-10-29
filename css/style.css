@@ -85,4 +85,49 @@ h2 {
   font-size: 40px;
   font-family: "Signika", sans-serif;
 }
+
+/* Services */
+.services-inner {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.services-title {
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 0.3;
+}
+
+.services-title-text {
+  font-family: "Signika", sans-serif;
+  color: #adadad;
+  font-style: italic;
+  font-size: 14px;
+}
+
+.services-inner-title {
+  font-family: "Inconsolata", monospace;
+  font-size: 16px;
+}
+
+.services-inner-text {
+  font-family: "Signika", sans-serif;
+  font-size: 12px;
+  color: #adadad;
+  line-height: 1.5;
+}
+
+.services-inner i {
+  font-size: 30px;
+  border-style: solid;
+  border-color: #ffaa00;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #ffaa00;
+  border-radius: 50%;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
